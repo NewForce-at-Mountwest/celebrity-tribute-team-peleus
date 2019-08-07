@@ -1,0 +1,22 @@
+body{ 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.career__published{
+    display:flex;
+    align-items: center;
+    padding:2em;
+    flex-direction:column;
+   list-style-type: none;
+}
+
+.career__places{
+    display:flex;
+    align-items:center;
+    padding:2em;
+    flex-direction:column;
+    list-style-type: none;
+}
+.career__list{
+    padding-bottom: 2em;
+}
