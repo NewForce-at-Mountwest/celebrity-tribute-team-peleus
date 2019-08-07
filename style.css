@@ -1,0 +1,12 @@
+.personal {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+.personal__list {
+    list-style-type: none;
+}
+
+.personal__headers {
+    font-size: 2em;
+}
