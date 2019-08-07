@@ -1,6 +1,7 @@
 
 body{ 
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f51e0f;
 }
 
 
@@ -28,7 +29,33 @@ body{
     font-size: 3em;
 }
 
+.parallax { 
+    background-image: url("https://66.media.tumblr.com/67fd4fc759f84e62b4055fc6c091b840/tumblr_nc4ewtX6Ye1rvcjd7o3_500.gif");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* Style for Page Title */
 
+header{
+    text-align:center;
+    padding-bottom: 0.2em;
+    font-size: 4em;
+}
+/* Style for intro */
+ 
+.career__intro{
+    text-align:center;
+    padding-bottom:0.2em;
+    font-size: 1.5em;
+}
+.career__page{
+    display:flex;
+    flex-wrap: wrap;
+}
+/*Styles for Published Works */
 
 .career__published{
     display:flex;
@@ -36,6 +63,17 @@ body{
     padding:2em;
     flex-direction:column;
    list-style-type: none;
+   background-color:grey;
+}
+
+/* Styles for Skills and Talents */
+
+.career__skills{
+    display:flex;
+   
+    flex-direction:column;
+    list-style-type: none;
+    text-align: center;
 }
 
 .career__places{
@@ -44,6 +82,7 @@ body{
     padding:2em;
     flex-direction:column;
     list-style-type: none;
+    text-align: right;
 }
 .career__list{
     padding-bottom: 2em;
