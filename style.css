@@ -75,5 +75,19 @@ body {
   background-size: cover;
 }
 
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+}
+
+.social__links {
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    margin: auto;
+}
+
 /* <!-- Container element --> */
 /* <div class="parallax"></div> */
