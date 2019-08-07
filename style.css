@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f51e0f;
 }
 
 /* Styling for Navigation Bar */
@@ -25,3 +26,33 @@ body{
     font-size: 3em;
 }
 
+
+section{
+    border: 1px solid black;
+    margin: 2em;
+    padding: 1em;
+    background-color: #ada4a3;
+}
+
+.mainPageHeading{
+    text-align: center;
+}
+
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.newsTitle{
+    text-align: center;
+    color: #f51e0f;
+    font-size: 50px;
+}
+
+.link__ticket{
+    text-decoration: none;
+    color: black;
+}
