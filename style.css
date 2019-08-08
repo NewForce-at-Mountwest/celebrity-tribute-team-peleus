@@ -117,13 +117,14 @@ body{
 .career__page{
     display:flex;
     flex-wrap: wrap;
+    padding: auto;
 }
 /*Styles for Published Works */
 
 .career__published{
     display:flex;
     align-items: center;
-    padding:2em;
+    padding:1em;
     flex-direction:column;
    list-style-type: none;
    background-color:grey;
@@ -138,19 +139,33 @@ body{
     list-style-type: none;
     text-align: center;
 }
-
+/* Styles for places lived */
 .career__places{
     display:flex;
-    align-items:center;
     padding:2em;
     flex-direction:column;
     list-style-type: none;
     text-align: right;
 }
+.places__list{
+    padding-top:10em;
+}
+
+.places__list2{
+    padding-top:0em;
+    padding-bottom:12em;
+}
+
 .career__list{
     padding-bottom: 2em;
 }
 
+/* Styles for Collaborators */
+
+.career__collaborators{
+    text-align:center;
+    list-style-type: none;
+}
 section{
     border: 1px solid black;
     margin: 2em;
