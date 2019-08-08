@@ -1,9 +1,10 @@
 
-body{
+
+body{ 
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #f51e0f;
-}
 
+}
 /* Styling for Navigation Bar */
 
 .navbar {
@@ -16,10 +17,10 @@ body{
   align-items: center;
 }
 
-.nav__items {
-  color: black;
-  text-decoration: none;
-  font-size: 2em;
+.nav__items{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
 }
 
 .nav__items:hover {
@@ -93,6 +94,82 @@ body{
     margin: auto;
 }
 
+.parallax__gif { 
+    background-image: url("https://66.media.tumblr.com/67fd4fc759f84e62b4055fc6c091b840/tumblr_nc4ewtX6Ye1rvcjd7o3_500.gif");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* Style for Page Title */
+
+.career__header{
+    text-align:center;
+    padding-bottom: 0.2em;
+    font-size: 4em;
+}
+/* Style for intro */
+ 
+.career__intro{
+    text-align:center;
+    padding-bottom:0.2em;
+    font-size: 1.5em;
+}
+.career__page{
+    display:flex;
+    flex-wrap: wrap;
+    padding: auto;
+}
+/*Styles for Published Works */
+
+.career__published{
+    display:flex;
+    align-items: center;
+    padding:1em;
+    flex-direction:column;
+   list-style-type: none;
+   background-color:grey;
+}
+
+/* Styles for Skills and Talents */
+
+.career__skills{
+    display:flex;
+   
+    flex-direction:column;
+    list-style-type: none;
+    text-align: center;
+}
+/* Styles for places lived */
+.career__places{
+    display:flex;
+    padding:2em;
+    flex-direction:column;
+    list-style-type: none;
+    text-align: right;
+}
+.places__list{
+    padding-top:10em;
+}
+
+.places__list2{
+    padding-top:0em;
+    padding-bottom:12em;
+}
+
+
+.career__list{
+    padding-bottom: 2em;
+}
+
+/* Styles for Collaborators */
+
+.career__collaborators{
+    text-align:center;
+    list-style-type: none;
+}
+
 
 /* News page styling below */
 
@@ -125,4 +202,5 @@ body{
     text-decoration: none;
     color: black;
 }
+
 
