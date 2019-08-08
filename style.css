@@ -77,6 +77,8 @@ body{
   background-size: cover;
 }
 
+/* Social media footer styling */
+
 .social {
     display: flex;
     justify-content: space-evenly;
@@ -92,20 +94,21 @@ body{
 }
 
 
+/* News page styling below */
 
-section{
+.news{
     border: 1px solid black;
     margin: 2em;
     padding: 1em;
     background-color: #ada4a3;
 }
 
-.mainPageHeading{
+.newsPageHeading{
     text-align: center;
 }
 
 
-.center{
+.news__img{
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -118,7 +121,7 @@ section{
     font-size: 50px;
 }
 
-.link__ticket{
+.newsLink__ticket{
     text-decoration: none;
     color: black;
 }
