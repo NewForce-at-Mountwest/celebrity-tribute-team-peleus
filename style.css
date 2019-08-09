@@ -121,10 +121,12 @@ body {
   padding-bottom: 0.2em;
   font-size: 1.5em;
 }
-.career__page {
-  display: flex;
-  flex-wrap: wrap;
-  padding: auto;
+
+.career__page{
+    display:flex;
+    flex-wrap: wrap;
+    padding: auto;
+    justify-content: space-between;
 }
 /*Styles for Published Works */
 
@@ -139,22 +141,27 @@ body {
 
 /* Styles for Skills and Talents */
 
-.career__skills {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  text-align: center;
+.career__skills{
+    
+    display:flex;
+   
+    flex-direction:column;
+    list-style-type: none;
+    text-align: center;
 }
 /* Styles for places lived */
-.career__places {
-  display: flex;
-  padding: 2em;
-  flex-direction: column;
-  list-style-type: none;
-  text-align: right;
+.career__places{
+    display:flex;
+    padding:2em;
+    flex-direction:column;
+    list-style-type: none;
+    text-align: center;
+    background-color:grey;
+    margin:6em;
 }
-.places__list {
-  padding-top: 10em;
+
+.places__list{
+    padding-top:10em;
 }
 
 .places__list2 {
@@ -172,6 +179,8 @@ body {
   text-align: center;
   list-style-type: none;
 }
+
+/* Jennifer, News */
 
 /* News page styling below */
 
