@@ -7,6 +7,10 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     background-color: gainsboro;
 }
+.personal__body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: gainsboro;
+}
 /* Styling for Navigation Bar */
 
 .navbar {
